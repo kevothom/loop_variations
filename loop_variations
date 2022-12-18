@@ -1,0 +1,32 @@
+for looping in range (1,6): # a list with values of 1,2,3,4,5
+    print(looping) #  the loop body
+print('The loop stops printing at number 5') 
+print('\n')
+
+mrs_jackson_kids = ['Lewis','Tom','Mark\n',
+'Tina','Stepanie','Linda'] # contains a list of names of mrs. Jackson kids
+print('All of Mrs. Jackson kids are: ')
+for kids in mrs_jackson_kids: # kids is the temporary loop container
+    print(kids) 
+print('\n') 
+
+answer = input('Should this loop keep going on? (y/n) ') # this question keeps showing (looping) up until answer is no
+while answer == 'y': # enters into infinite loop if answered yes  
+     answer = input('Should this loop keep going on? (y/n)') 
+print('\n') 
+
+launch = input('Will another space rocket take flight today? (y/n)')
+while launch == 'y': # enters into infinite loop if answered yes  
+    for count in range(10,0,-1):
+        print('Keeps looping if answer is yes')
+    print('Lift off was successful')
+launch = input("We will give the media an update on our next rocket launch") # if answered no prints out this statement
+print('\n')    
+
+crews = [['First Shift:' '\n' 'Dan', 'Doug', 'Derrick', 'Danielle'], \
+        ['Second Shift:' '\n' 'Carl', 'Carol', 'Cathy','Cliff'], \
+        ['Third Shift:' '\n'  'Anthony', 'Abel', 'Adolf', 'Antonio']] # list contains 3 different work shifts and names of employees
+for employees in crews: # selects a crew to process
+    for name in employees: 
+        print(name) # prints names in crew one after the other
+print('\n')
