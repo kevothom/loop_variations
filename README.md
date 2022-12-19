@@ -1,6 +1,7 @@
 # loop_variations
 # superhero_if_else_elif_statements
 This repository has two projects in it:
+
 The first project contains a series of various loops and the logic behind how each one work.
 The first loop is a for loop, followed by a for loop with a list, then a while loop.
 The last 2 loops are nested loops which are loops inside of another loop.
