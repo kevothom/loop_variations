@@ -1,0 +1,21 @@
+name = input('What is your name?: ') # input statement asking for users name
+if name == "Kevin": # if statement checks to see if input name is Kevin
+    print('My name is '  + name) # this statement is printed if name is Kevin
+elif name == "Dan": # else if statement is processed if input name is Dan
+    print('Are you really a superhero?') # this statement is printed if name inputted is Dan
+    print('And what planet are you from?') # this statement is printed if name inputted is Dan
+else: # else statement is printed is inputted name is not Kevin or Dan
+    print('You are not a superhero, so where did you come from?')
+villian = input('Who is your favorite villian?: ') # input statement asking for favorite villian
+superhero = input('What is your favorite superhero?: ') # input statement asking for favorite superhero
+if superhero == 'Spiderman': # if statement checks to see if input name is Spiderman
+    print('So you have good spider senses') # this statement is printed if superhero is Spiderman
+elif superhero == "Batman" and villian == "incredible hulk": # else if conditional statement processed if both conditions are met 
+    print('Those are my 2 favorite superheros') # this statement is printed if superhero is Batman and villian is incredible hulk
+elif superhero == "Aquaman" or "Superman":  # else if conditional statement processed if either one of the conditions are met  
+    print('This is one of my favorite superheros') # this statement is printed if superhero is either Aquaman or Superman
+else: # else statement is printed is inputted superhero or villian is not the conditional choices
+    print('You are not a superhero, so where did you come from?')
+    print("You mean to tell me you are not the big Green muscular monster")
+    print('I thought you were the ' + villian)
+    
